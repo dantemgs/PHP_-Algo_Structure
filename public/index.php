@@ -1,4 +1,7 @@
 ﻿<?php
+//
+//1
+//
 $link = mysqli_connect('127.0.0.1', 'root', '', 'algo3');
 
 if (mysqli_connect_errno()) {
@@ -69,7 +72,7 @@ $catalog = getDb(1, $link);
 //var_dump($catalog);
 //echo "<hr>";
 
-//echo myFunc($link, $catalog);
+echo myFunc($link, $catalog);
 echo "<hr>";
 //
 //2
